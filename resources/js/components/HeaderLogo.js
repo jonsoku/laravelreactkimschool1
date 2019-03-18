@@ -11,7 +11,7 @@ color: pink;
 
 export default () => (
     <DivLogo>
-        <Logo>KIMSCHOOL</Logo>
+        <Logo>JONSOKU</Logo>
     </DivLogo>
 );
 

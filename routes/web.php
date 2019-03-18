@@ -11,6 +11,12 @@
 |
 */
 
-Route::get('/{any}', function(){
+// Route::get('/{any}', function(){
+//     return view('welcome');
+// })->where('any','.*');
+
+Route::get('/', function(){
     return view('welcome');
-})->where('any','.*');
+});
+
+Route::resource('notices', 'NoticeController');

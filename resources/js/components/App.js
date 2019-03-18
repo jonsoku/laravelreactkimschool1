@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Router from "./Router";
 import ReactDOM from 'react-dom';
 import GlobalStyles from './GlobalStyles';
+import Footer from './Footer';
 
 export default class App extends Component {
     render() {
@@ -9,6 +10,7 @@ export default class App extends Component {
             <div>
                 <Router />
                 <GlobalStyles/>
+                <Footer />
             </div>
         );
     }
